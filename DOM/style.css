@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+header p { 
+    text-align: center;
+    color: antiquewhite;
+    margin: -16px;  
+}
+
+header p span {
+    font-weight: bold; 
+
+}
+#titulo { 
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: antiquewhite;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#azul {
+    color: blue;
+}
+
+.bemGrande {
+    font-size: 50px;
+}
